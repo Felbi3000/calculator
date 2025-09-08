@@ -45,6 +45,22 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-#calcTxt {
+#buttons {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
   
+}
+
+#buttons.row {
+  display: flex;
+}
+
+.button {
+  width: 50px;
+  flex: 1;
+}
+
+#calcTxt {
+  width: 212px;
 }

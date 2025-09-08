@@ -10,24 +10,32 @@
 <body>
     <h1>Super Awesome Calculator</h1>
     <div id="main">
-        <input type="text" id="calcTxt" value="0">
+        <input type="text" id="calcTxt" disabled="true" value="0">
         <div id="buttons">
-            <button class="button" id="7">7</button>
-            <button class="button" id="8">8</button>
-            <button class="button" id="9">9</button>
-            <button class="button" id="div">/</button>
-            <button class="button" id="4">4</button>
-            <button class="button" id="5">5</button>
-            <button class="button" id="6">6</button>
-            <button class="button" id="mul">*</button>
-            <button class="button" id="1">1</button>
-            <button class="button" id="2">2</button>
-            <button class="button" id="3">3</button>
-            <button class="button" id="sub">-</button>
-            <button class="button" id="0">0</button>
-            <button class="button" id=",">,</button>
-            <button class="button" id="operate">=</button>
-            <button class="button" id="add">+</button>
+            <div class="row">
+                <button class="button" id="7">7</button>
+                <button class="button" id="8">8</button>
+                <button class="button" id="9">9</button>
+                <button class="button" id="div">/</button>
+            </div>
+            <div class="row">
+                <button class="button" id="4">4</button>
+                <button class="button" id="5">5</button>
+                <button class="button" id="6">6</button>
+                <button class="button" id="mul">*</button>
+            </div>
+            <div class="row">
+                <button class="button" id="1">1</button>
+                <button class="button" id="2">2</button>
+                <button class="button" id="3">3</button>
+                <button class="button" id="sub">-</button>
+            </div>
+            <div class="row">
+                <button class="button" id="0">0</button>
+                <button class="button" id="clr">CLR</button>
+                <button class="button" id="operate">=</button>
+                <button class="button" id="add">+</button>                
+            </div>
         </div>
     </div>
 </body>
